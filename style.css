@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+#nav{
+    font-size: larger;
+    color: black;
+}
+#hero{
+    padding-left: 50px;
+}
+.hero_image{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.hero_txt{
+    position: absolute;
+    bottom: 0;
+    top: 35%;
+    background: white;
+    /* width: 90px; */
+    height: 42px;
+    /* text-align: center; */
+    left: 13%;
+    width: 120px;
+    padding: 9px;
+}
+.txt{
+    border-bottom: 3px solid black;
+    width: 17%;
+    margin: auto;
+}
+#box1{
+    height: 200px;
+    background-color: lightgray;
+}
+.box_txt{
+    padding: 12px 0 0 10px;
+}
+#box2{
+    height: 200px;
+    background-color: gray;
+}
+#box3{
+    height: 200px;
+    background-color: rgb(78, 77, 77);
+    color: white;
+}
+#box4{
+    height: 200px;
+    background-color:black;
+    color: white;
+}
+.cont1{
+    height: 600px;
+    border: 1px solid rgb(103, 102, 102);  
+}
+.cont1:hover{
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+    border: none;
+}
+/* #cont2{
+    height: 600px;
+    border: 1px solid black;
+    width: 30%;
+}
+#cont3{
+    height: 600px;
+    border: 1px solid black;
+    max-width: 100%;
+} */
+.line{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.line1{
+    height: 100px;
+    background-color: rgb(112, 111, 111);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.line_txt{
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+}
+.line_txt1{
+    height: 90px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+}
+.color{
+    height: 102px;
+    background-color: rgb(241 240 245);
+    text-align: center;
+    align-content: center;
+}
+.signup{
+    width: 102px;
+    height: 45px;
+    background: #3eb43e;
+    color: white;
+    border: none;
+}
+#shadow{
+    -webkit-box-shadow: 0px 7px 12px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 12px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 12px -10px rgba(0,0,0,0.75);
+}
+#new_btn{
+    height: 48px;
+    border-radius: 0px;
+    width: 90%;
+    margin: auto;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
